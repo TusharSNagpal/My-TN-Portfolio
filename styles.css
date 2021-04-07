@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+:root{
+    --primary-color: #BE185D;
+    --dark-grey: #6B7280;
+    --offwhite: #E5E7EB;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+hr{
+    margin: 2rem 0rem;
+}
+
+/**container**/
+.container{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.container-center{
+    max-width: 600px;
+    margin: auto;
+}
+
+/**links**/
+.link{
+text-decoration: none;
+padding: 0.5rem 1rem;
+}
+
+.primary-link{
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 0.5rem;
+    text-align: center;
+}
+
+.secondary-link{
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+
+}
+
+/** lists **/
+.list_non-bullet{
+    list-style: none;
+}
+
+.list_item-inline{
+    display: inline;
+    padding: 0.5rem 0.5rem;
+}
+
+/** navigation **/
+.navigation{
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem 5rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+.navigation .nav-this{
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.navigation .nav-this-small{
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding: 2rem 0rem;
+}
+
+.navigation .link{
+    color: white;
+}
+
+.navigation .nav-pills{
+    text-align: right;
+}
+
+.navigation .link-active{
+    font-weight: bold;
+}
+
+/** header **/
+
+.hero{
+    padding: 2rem;
+}
+
+.hero .hero-image{
+    max-width: 550px;
+    display: block;
+    margin: auto;
+}
+
+.hero .hero-header{
+    padding-top: 2rem;
+    font-size: 2rem;
+    color: var(--dark-grey);
+    margin: auto;
+    text-align: center;
+}
+
+/** section **/
+.section{
+    padding: 0.5rem;
+}
+
+.section h1{
+text-align: center;
+
+}
+
+.section p{
+    text-align: center;
+}
+
+.section .lang{
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+.offwhite{
+    background-color: var(--offwhite);
+}
+
+/** footer **/
+.footer{
+    background-color: var(--primary-color);
+    color: white;
+    padding: 3rem;
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    text-align: center;
+}
+
+.footer .link{
+    color: white;
+}
+
+.footer ul{
+    padding-inline-start: 0px;
+}
+
+.footer-header{
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.footer .logo{
+   font-size: 10px;
+   text-align: center;
+   text-decoration: none;
+   border-radius: 50%;
+   margin-right: 1rem;
+}
+
+.footer .small{
+    max-width: 7rem;
+}

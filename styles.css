@@ -5,6 +5,7 @@
     --primary-color: #BE185D;
     --dark-grey: #6B7280;
     --offwhite: #E5E7EB;
+    --this-brown: #7F1D1D;
 }
 body{
     font-family: 'Montserrat', sans-serif;
@@ -168,4 +169,51 @@ text-align: center;
 
 .footer .small{
     max-width: 4rem;
+}
+
+/* friendship game*/
+
+.result{
+    padding: 1rem 0rem;
+    font-weight: bold;
+    font-size: 1.7rem;
+}
+
+#output{
+    padding: 1rem 1rem;
+    border: solid var(--primary-color);
+    width: 60%;
+    height: 25px;
+    border-bottom-right-radius: 1rem;
+    font-weight: bold;
+}
+
+#output2{
+    padding: 1rem 1rem;
+    border: solid var(--primary-color);
+    width: 60%;
+    height: 25px;
+    border-bottom-right-radius: 1rem;
+    font-weight: bold;
+}
+
+#q1, #q2, #q3, #q4, #q5{
+    font-weight: bold;
+    font-size: larger;
+    color: var(--this-brown);
+}
+
+#a1, #a2, #a3, #a4, #a5{
+    border:4px solid var(--dark-grey);
+    width: 40%;
+    height: 50px;
+
+}
+
+.cen{
+    text-align: center;
+}
+.section .small{
+    max-width: 12rem;
+    border-radius: 50%;
 }

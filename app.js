@@ -9,9 +9,9 @@ var a5 = document.querySelector("#a5");
 var username = prompt("Please Enter Your Name: ");
 alert("Hey "+ username + "! Tushar Welcomes You To His Game Page! Please Scroll Down..");
 
-var score=0;
 
 function doThis(){
+var score=0;
 
 if(a1.value==='20')
 score++;
@@ -28,13 +28,19 @@ score++;
 if(a5.value==='Rajma Chawal')
 score++;
 
-output.innerText = "YOUR SCORE IS: " + score;
+output.innerText = "YOUR SCORE IS: " + score + " out of 5.";
 
 if(score>2)
 output2.innerText = "Yeah! You know him.";
 
 else
 output2.innerText = "You dont know much about him.";
+
+corr1.innerText= "Correct Answer is 20.";
+corr2.innerText= "Correct Answer is 2.";
+corr3.innerText= "Correct Answer is Yes.";
+corr4.innerText= "Correct Answer is Gurugram.";
+corr5.innerText= "Correct Answer is Rajma Chawal.";
 
 };
 

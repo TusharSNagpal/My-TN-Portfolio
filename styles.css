@@ -94,6 +94,7 @@ padding: 0.5rem 1rem;
 }
 
 .hero .hero-image{
+    padding-right: 2rem;
     max-width: 400px;
     display: block;
     margin: auto;

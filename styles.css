@@ -94,14 +94,14 @@ padding: 0.5rem 1rem;
 }
 
 .hero .hero-image{
-    max-width: 470px;
+    max-width: 400px;
     display: block;
     margin: auto;
 }
 
 .hero .hero-header{
     padding-top: 2rem;
-    font-size: 2rem;
+    font-size: 2.7rem;
     color: var(--dark-grey);
     margin: auto;
     text-align: center;

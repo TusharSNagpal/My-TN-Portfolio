@@ -36,11 +36,11 @@ output2.innerText = "Yeah! You know him.";
 else
 output2.innerText = "You dont know much about him.";
 
-corr1.innerText= "Correct Answer is 20.";
-corr2.innerText= "Correct Answer is 2.";
-corr3.innerText= "Correct Answer is Yes.";
-corr4.innerText= "Correct Answer is Gurugram.";
-corr5.innerText= "Correct Answer is Rajma Chawal.";
+a1.innerText= "Correct Answer is 20.";
+a2.innerText= "Correct Answer is 2.";
+a3.innerText= "Correct Answer is Yes.";
+a4.innerText= "Correct Answer is Gurugram.";
+a5.innerText= "Correct Answer is Rajma Chawal.";
 
 };
 

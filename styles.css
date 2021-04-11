@@ -126,9 +126,10 @@ text-align: center;
     padding-left: 10rem;
 }
 
-.section .lang{
+.lang{
     color: var(--primary-color);
     font-weight: bold;
+    font-size: larger;
 }
 
 .offwhite{
@@ -173,7 +174,7 @@ text-align: center;
 
 /* friendship game*/
 
-.result{
+#result{
     padding: 1rem 0rem;
     font-weight: bold;
     font-size: 1.7rem;
@@ -181,19 +182,19 @@ text-align: center;
 
 #output{
     padding: 1rem 1rem;
-    border: solid var(--primary-color);
+    
     width: 60%;
     height: 25px;
-    border-bottom-right-radius: 1rem;
+    color: var(--primary-color);
     font-weight: bold;
 }
 
 #output2{
     padding: 1rem 1rem;
-    border: solid var(--primary-color);
+    
     width: 60%;
     height: 25px;
-    border-bottom-right-radius: 1rem;
+    color: var(--primary-color);
     font-weight: bold;
 }
 

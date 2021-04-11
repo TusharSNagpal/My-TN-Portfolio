@@ -1,6 +1,7 @@
 var buttonResp = document.querySelector("#button-resp");
 var output = document.querySelector("#output");
 var output2 = document.querySelector("#output2");
+var result = document.querySelector("#result");
 var a1 = document.querySelector("#a1");
 var a2 = document.querySelector("#a2");
 var a3 = document.querySelector("#a3");
@@ -31,10 +32,15 @@ score++;
 output.innerText = "YOUR SCORE IS: " + score + " out of 5.";
 
 if(score>2)
+{
+result.innerText = "RESULT: 👇";
 output2.innerText = "Yeah! You know him.";
+}
 
-else
-output2.innerText = "You dont know much about him.";
+else{
+result.innerText = "RESULT: 👇";
+output2.innerText = "You don't know much about him.";
+}
 
 a1.innerText= "Correct Answer is 20.";
 a2.innerText= "Correct Answer is 2.";

@@ -207,11 +207,11 @@ text-align: center;
 #a1, #a2, #a3, #a4, #a5{
     border:4px solid var(--dark-grey);
     width: 40%;
-    height: 50px;
+    height: 3rem;
     color: green;
     font-weight: bold;
-    font-size: larger
-
+    font-size: larger;
+    
 }
 
 .cen{

@@ -34,12 +34,12 @@ output.innerText = "YOUR SCORE IS: " + score + " out of 5.";
 if(score>2)
 {
 result.innerText = "RESULT: 👇";
-output2.innerText = "Yeah! You know him.";
+output2.innerText = "Yeah! You know him. Thanks please play again.";
 }
 
 else{
 result.innerText = "RESULT: 👇";
-output2.innerText = "You don't know much about him.";
+output2.innerText = "You don't know much about him. Thanks please play again.";
 }
 
 a1.innerText= "Correct Answer is 20.";

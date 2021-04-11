@@ -175,14 +175,18 @@ text-align: center;
 /* friendship game*/
 
 #result{
-    padding: 1rem 0rem;
+    padding: 1rem 1rem;
     font-weight: bold;
     font-size: 1.7rem;
+    border: 2px solid var(--dark-grey);
+    border-bottom: none;
 }
 
 #output{
     padding: 1rem 1rem;
-    
+    border: 2px solid var(--dark-grey);
+    border-bottom: none;
+    border-top: none;
     width: 60%;
     height: 25px;
     color: var(--primary-color);
@@ -191,7 +195,8 @@ text-align: center;
 
 #output2{
     padding: 1rem 1rem;
-    
+    border: 2px solid var(--dark-grey);
+    border-top: none;
     width: 60%;
     height: 25px;
     color: var(--primary-color);
@@ -199,18 +204,18 @@ text-align: center;
 }
 
 #q1, #q2, #q3, #q4, #q5{
-    font-weight: bold;
+    
     font-size: larger;
     color: var(--this-brown);
 }
 
 #a1, #a2, #a3, #a4, #a5{
-    border:4px solid var(--dark-grey);
+    border:2px solid var(--primary-color);
     width: 40%;
     height: 3rem;
     color: green;
-    font-weight: bold;
     font-size: 1.1rem;
+    border-radius: 1rem;
 }
 
 .cen{
@@ -222,9 +227,8 @@ text-align: center;
 }
 
 #button-resp{
-    border: solid var(--primary-color);
+    font-size: 1rem;
     padding: 0.5rem 2rem;
-    font-size: larger;
 }
 
 /* LEAP YEAR */
@@ -233,4 +237,15 @@ text-align: center;
 border: solid var(--primary-color);
 padding: 1rem;
 border-radius: 1rem;
+}
+
+.borderdiv{
+    border:2px solid var(--dark-grey);
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.lang2{
+    color: var(--primary-color);
+   font-weight: bold;
 }

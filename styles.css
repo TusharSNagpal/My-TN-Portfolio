@@ -1,5 +1,5 @@
-  
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 
 :root{
     --primary-color: #BE185D;
@@ -231,6 +231,7 @@ text-align: center;
 #button-resp{
     font-size: 1rem;
     padding: 0.5rem 2rem;
+    text-decoration: none;
 }
 
 /* LEAP YEAR */
@@ -250,4 +251,12 @@ border-radius: 1rem;
 .lang2{
     color: var(--primary-color);
    font-weight: bold;
+}
+
+/** project **/
+.quote{
+    font-family: 'Great Vibes', cursive;
+    font-size: 3rem;
+    text-align: center;
+    color: var(--primary-color);
 }

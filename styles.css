@@ -180,6 +180,8 @@ text-align: center;
     font-size: 1.7rem;
     border: 2px solid var(--dark-grey);
     border-bottom: none;
+    width: 60%;
+    height: 25px;
 }
 
 #output{

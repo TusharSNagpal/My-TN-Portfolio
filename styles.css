@@ -110,12 +110,11 @@ padding: 0.5rem 1rem;
 
 /** section **/
 .section{
-    padding: 0.5rem;
+    padding-top: 0px;
 }
 
 .section h1{
-text-align: center;
-
+    text-align: center;
 }
 
 .section p{
@@ -174,31 +173,25 @@ text-align: center;
 
 /* friendship game*/
 
-#result{
+#result , #output1 {
     padding: 1rem 1rem;
     font-weight: bold;
     font-size: 1.7rem;
-    border: 2px solid var(--dark-grey);
-    border-bottom: none;
+    
     width: auto;
     height: auto;
 }
 
 #output{
     padding: 1rem 1rem;
-    border: 2px solid var(--dark-grey);
-    border-bottom: none;
-    border-top: none;
     width: auto;
     height: auto;
     color: var(--primary-color);
     font-weight: bold;
 }
 
-#output2{
+#output2 , #result1{
     padding: 1rem 1rem;
-    border: 2px solid var(--dark-grey);
-    border-top: none;
     width: auto;
     height: auto;
     color: var(--primary-color);
@@ -251,6 +244,13 @@ border-radius: 1rem;
 .lang2{
     color: var(--primary-color);
    font-weight: bold;
+}
+
+.o{
+    padding:0rem 1rem;
+    height: auto;
+    width: auto;
+    border: 2px solid var(--dark-grey);
 }
 
 /** project **/

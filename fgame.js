@@ -43,7 +43,7 @@ output2.innerText = "Yeah! You know him. Thanks please play again.";
 
 else{
 result.innerText = "RESULT: 👇";
-output2.innerText = "You don't know much about him. Thanks please play again.";
+output2.innerText = "You don't know much about him.";
 }
 
 a1.innerText= "Correct Answer is 20.";

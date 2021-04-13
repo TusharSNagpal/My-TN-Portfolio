@@ -3,9 +3,6 @@ var buttonResp = document.querySelector("#button-resp");
 var result1 = document.querySelector("#result1");
 var a1 = document.querySelector("#a1");
 
-var username = prompt("Please Enter Your Name: ");
-alert("Hey "+ username + "! Tushar Welcomes You To His Game Page! Please Scroll Down..");
-
 
 function doThis(){
 

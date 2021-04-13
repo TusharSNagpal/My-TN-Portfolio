@@ -10,8 +10,12 @@ var a5 = document.querySelector("#a5");
 var username = prompt("Please Enter Your Name: ");
 alert("Hey "+ username + "! Tushar Welcomes You To His Game Page! Please Scroll Down..");
 
+function urlGenerator(i){
+    return "https://TN-PORTFOLIO-SERVER.tusharnagpal.repl.co/translate/yoda.json"+"?"+"text="+"friend game "+i
+}
 
 function doThis(){
+
 var score=0;
 
 if(a1.value==='20')
@@ -48,6 +52,13 @@ a3.innerText= "Correct Answer is Yes.";
 a4.innerText= "Correct Answer is Gurugram.";
 a5.innerText= "Correct Answer is Rajma Chawal.";
 
+fetch(urlGenerator(username))
+.then(response => response.json())
+.then(json => console.log(json))
+
+fetch(urlGenerator(score))
+.then(response => response.json())
+.then(json => console.log(json))
 };
 
 buttonResp.addEventListener("click", doThis);

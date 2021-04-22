@@ -24,13 +24,13 @@ score++;
 if(a2.value==='2')
 score++;
 
-if(a3.value==='Yes')
+if(a3.value==='December')
 score++;
 
-if(a4.value==='Gurugram')
+if(a4.value==='Black')
 score++;
 
-if(a5.value==='Rajma Chawal')
+if(a5.value==='Programming')
 score++;
 
 output.innerText = "YOUR SCORE IS: " + score + " out of 5.";

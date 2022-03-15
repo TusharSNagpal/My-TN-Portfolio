@@ -16,7 +16,7 @@ if(a1.value%4 === 0)
 output1.innerText = "YEAR ENTERED IS : " + a1.value + " and it is LEAP.";
 
 else
-output.innerText = "YEAR ENTERED IS : " + a1.value + " and it is NOT LEAP.";
+output1.innerText = "YEAR ENTERED IS : " + a1.value + " and it is NOT LEAP.";
 
 result1.innerText = "THANKS FOR USING! YOU ARE ALWAYS WELCOME HERE.";
 

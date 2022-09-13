@@ -9,7 +9,7 @@ function doThis(){
 let y = a1.value%20 + 1;
 
 for (let i = 0; i < 8; i++) {
-   output1.innerText += y + '\xa0';
+   output1.innerText += y.toString() + '\n';
    y+=20;
 } 
                       

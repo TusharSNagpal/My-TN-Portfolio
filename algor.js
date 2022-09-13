@@ -6,10 +6,10 @@ var a1 = document.querySelector("#a1");
 
 function doThis(){
 
-let y = a1.value%20;
+let y = a1.value%20 + 1;
 
 for (let i = 0; i < 8; i++) {
-   output1.innerText += + y + " ";
+   output1.innerText += y + " ";
    y+=20;
 } 
                       
